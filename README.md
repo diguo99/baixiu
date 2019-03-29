@@ -2,10 +2,13 @@
 记录小舅子的项目;
 
 搭建过程:
-1. git clone https://github.com/diguo99/baixiu
-2. 创建数据库:db_baixiu,编码:utf-8 校对集:utf8-generic-ci
-3. 导入数据库db_baixiu.sql
-4. nginx配置:
+### 1. 克隆代码:
+```
+git clone https://github.com/diguo99/baixiu
+```
+### 2. 创建数据库:db_baixiu,编码:utf-8 校对集:utf8-generic-ci
+### 3. 导入数据库db_baixiu.sql
+### 4. nginx配置:
 ```
 server {
     listen       80 ;   
@@ -30,10 +33,10 @@ server {
 }
 ```
 
-5. host配置:
+### 5. host配置:
 ```
 127.0.0.1	baixiu.com
 ```
 
-6. 访问浏览器:baixiu.com 即可进入项目.项目首页截图:
+### 6. 访问浏览器:baixiu.com 即可进入项目.项目首页截图:
 https://img-blog.csdnimg.cn/20190329153758168.png
